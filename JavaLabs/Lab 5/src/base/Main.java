@@ -53,7 +53,7 @@ public class Main {
         // Function to total up the lemonades bought
         int lemonades_bought = 0;
         for(int y : lemonades_list){
-            lemonades_bought += x;
+            lemonades_bought += y;
         }
 
         // Function to total up the tips
