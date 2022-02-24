@@ -34,6 +34,36 @@ public class Main {
 
     static void dry_inventory() {
         // Your DRY Solution goes here!
+        // Lists for each variable
+        int [] pretzels_list = {4,2,3,1,2,10,6,1,2,6,9};
+        int [] lemonades_list = {1,3,2,6,4,8,1,7,3,2};
+        int [] tips_collected = {4,10,5,10,4,3};
+
+        // Function to total up the pretzels bought
+        int pretzels_bought = 0;
+        for(int x : pretzels_list){
+            pretzels_bought += x;
+        }
+
+        // Function to total up the lemonades bought
+        int lemonades_bought = 0;
+        for(int y : lemonades_list){
+            lemonades_bought += x;
+        }
+
+        // Function to total up the tips
+        int total_tips = 0;
+        for(int z : tips_collected){
+            total_tips += z;
+        }
+
+        // Print statements
+        System.out.println(" ");
+        System.out.println("Results for the hour!");
+        System.out.println("Lemonades remaining: " + (lemonades_available - lemonades_bought));
+        System.out.println("Pretzels remaining: " + (pretzels_available - pretzels_bought));
+        System.out.println("Cash: " + (cash + (lemonades_bought * 8) + (pretzels_total * 2)));
+        System.out.println("Tips: " + (tips + tips_collected));
     }
 
     static void wet_inventory() {
