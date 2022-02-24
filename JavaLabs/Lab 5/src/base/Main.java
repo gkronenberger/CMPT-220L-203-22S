@@ -68,7 +68,7 @@ public class Main {
         System.out.println("Lemonades remaining: " + (lemonades_available - lemonades_bought));
         System.out.println("Pretzels remaining: " + (pretzels_available - pretzels_bought));
         System.out.println("Cash: " + (cash + (lemonades_bought * 8) + (pretzels_bought * 2)));
-        System.out.println("Tips: " + (tips + tips_collected));
+        System.out.println("Tips: " + (tips + total_tips));
     }
 
     static void wet_inventory() {
