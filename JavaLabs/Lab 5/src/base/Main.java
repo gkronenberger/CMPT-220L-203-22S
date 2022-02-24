@@ -1,5 +1,9 @@
 package base;
 
+//Garrett Kronenberger
+//Aaron Kippins
+//Lab 5
+// Markdown Guide: https://www.markdownguide.org/cheat-sheet/
 public class Main {
     /**
      * In our Assignment here we're running a little lemonade stand and we also sell pretzels. We need to keep track of
@@ -34,6 +38,7 @@ public class Main {
 
     static void dry_inventory() {
         // Your DRY Solution goes here!
+        //
         // Lists for each variable
         int [] pretzels_list = {4,2,3,1,2,10,6,1,2,6,9};
         int [] lemonades_list = {1,3,2,6,4,8,1,7,3,2};
@@ -62,7 +67,7 @@ public class Main {
         System.out.println("Results for the hour!");
         System.out.println("Lemonades remaining: " + (lemonades_available - lemonades_bought));
         System.out.println("Pretzels remaining: " + (pretzels_available - pretzels_bought));
-        System.out.println("Cash: " + (cash + (lemonades_bought * 8) + (pretzels_total * 2)));
+        System.out.println("Cash: " + (cash + (lemonades_bought * 8) + (pretzels_bought * 2)));
         System.out.println("Tips: " + (tips + tips_collected));
     }
 
